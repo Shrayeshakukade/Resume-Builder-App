@@ -1,0 +1,23 @@
+#header
+{
+	position: absolute;
+	top: 0px;
+	color: Black;
+	left: 400px;
+	height: 600px;
+	float: top;
+	width:400px;
+	margin-right: 200px;
+}
+#sideleft
+{
+	background-color: rgb(24,14,90);
+	color: White;
+	position: absolute;
+	top: 0px;
+	left:10px;
+	padding: 20px;
+	width: 250px;
+	height: 800px;
+
+ }

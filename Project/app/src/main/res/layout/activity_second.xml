@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8AD78"
+    tools:context=".SecondActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/resume">
+
+        <Button
+            android:id="@+id/resume_d"
+            android:layout_width="140dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="51dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/btn_round"
+            android:text="Generate Resume"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/interest_d" />
+
+        <Button
+            android:id="@+id/achievements_d"
+            android:layout_width="110dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/btn1_round"
+            android:drawableTop="@drawable/ic_brightness_high_black_24dp"
+            android:paddingTop="8dp"
+            android:text="Achievements"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/interest_d"
+            app:layout_constraintTop_toBottomOf="@+id/skills_d" />
+
+        <Button
+            android:id="@+id/interest_d"
+            android:layout_width="109dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/btn1_round"
+            android:drawableTop="@drawable/ic_thumb_up_black_24dp"
+            android:paddingTop="10dp"
+            android:text="Interests"
+            app:layout_constraintEnd_toStartOf="@+id/achievements_d"
+            app:layout_constraintHorizontal_bias="0.524"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/project_d" />
+
+        <Button
+            android:id="@+id/skills_d"
+            android:layout_width="107dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/btn1_round"
+            android:drawableTop="@drawable/ic_flash_on_black_24dp"
+            android:paddingTop="10dp"
+            android:text="Technical Skills"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/project_d"
+            app:layout_constraintTop_toBottomOf="@+id/exp_d" />
+
+        <Button
+            android:id="@+id/exp_d"
+            android:layout_width="107dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/btn1_round"
+            android:drawableTop="@drawable/ic_local_library_black_24dp"
+            android:paddingTop="10dp"
+            android:text="Experience"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/educationd"
+            app:layout_constraintTop_toBottomOf="@+id/personald" />
+
+        <Button
+            android:id="@+id/personald"
+            android:layout_width="110dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/btn1_round"
+            android:drawableTop="@drawable/ic_sentiment_very_satisfied_black_24dp"
+            android:drawablePadding="1dp"
+            android:paddingTop="10dp"
+            android:text="Personal Info"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/basicd"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/project_d"
+            android:layout_width="107dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/btn1_round"
+            android:drawableTop="@drawable/ic_build_black_24dp"
+            android:paddingTop="10dp"
+            android:text="Projects"
+            app:layout_constraintEnd_toStartOf="@+id/skills_d"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/educationd" />
+
+        <Button
+            android:id="@+id/basicd"
+            android:layout_width="107dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn1_round"
+            android:drawableTop="@drawable/ic_person_black_24dp"
+            android:paddingTop="10dp"
+            android:text="Basic Details"
+            app:layout_constraintBottom_toTopOf="@+id/educationd"
+            app:layout_constraintEnd_toStartOf="@+id/personald"
+            app:layout_constraintHorizontal_bias="0.421"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.354" />
+
+        <Button
+            android:id="@+id/educationd"
+            android:layout_width="107dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/btn1_round"
+            android:drawableTop="@drawable/ic_school_black_24dp"
+            android:paddingTop="10dp"
+            android:text="Education"
+            app:layout_constraintEnd_toStartOf="@+id/exp_d"
+            app:layout_constraintHorizontal_bias="0.384"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/basicd" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

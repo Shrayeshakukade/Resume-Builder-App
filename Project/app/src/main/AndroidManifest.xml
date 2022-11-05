@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.resumebuilderapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/images"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FresherInfo"></activity>
+        <activity android:name=".Select_Ex_Fr" />
+        <activity android:name=".Template8" />
+        <activity android:name=".Template7" />
+        <activity android:name=".Template5" />
+        <activity android:name=".Template6" />
+        <activity android:name=".Template4" />
+        <activity android:name=".Template3" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".Template2" />
+        <activity android:name=".Template1" />
+        <activity android:name=".TemplatePage" />
+        <activity android:name=".Skillinfo" />
+        <activity android:name=".Achievementinfo" />
+        <activity android:name=".Interestinfo" />
+        <activity android:name=".Projectinfo" />
+        <activity android:name=".Experienceinfo" />
+        <activity android:name=".Educationinfo" />
+        <activity android:name=".PersonalInfo" />
+        <activity android:name=".BasicDetails" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

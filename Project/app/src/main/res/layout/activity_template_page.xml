@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout android:layout_height="800dp" android:layout_width="match_parent" android:background="@color/colorAccent">
+
+        <Button android:layout_height="150dp" android:layout_width="120dp" android:background="@drawable/t4" android:layout_alignBottom="@+id/btn3" android:layout_alignRight="@+id/btn2" android:layout_alignEnd="@+id/btn2" android:layout_alignBaseline="@+id/btn3" android:id="@+id/btn4"/>
+
+        <Button android:layout_height="150dp" android:layout_width="120dp" android:background="@drawable/t6" android:layout_alignBottom="@+id/btn5" android:layout_alignBaseline="@+id/btn5" android:id="@+id/btn6" android:layout_alignLeft="@+id/btn4" android:layout_alignStart="@+id/btn4"/>
+
+        <Button android:layout_height="150dp" android:layout_width="120dp" android:background="@drawable/t5" android:id="@+id/btn5" android:layout_alignLeft="@+id/btn3" android:layout_alignStart="@+id/btn3" android:layout_marginTop="36dp" android:layout_below="@+id/btn3"/>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="#FFFFFF" android:id="@+id/tvChoose" android:layout_marginTop="27dp" android:textSize="20sp" android:textColor="#582804" android:textAppearance="@style/TextAppearance.AppCompat.Body2" android:text="Choose a template" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"/>
+
+        <Button android:layout_height="150dp" android:layout_width="120dp" android:background="@drawable/t2" android:layout_alignBottom="@+id/btn7" android:layout_alignRight="@+id/btn6" android:layout_alignEnd="@+id/btn6" android:id="@+id/btn8"/>
+
+        <Button android:layout_height="150dp" android:layout_width="120dp" android:background="@drawable/t2" android:layout_alignBottom="@+id/btn1" android:layout_alignBaseline="@+id/btn1" android:id="@+id/btn2" android:layout_marginRight="27dp" android:layout_marginEnd="27dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+
+        <Button android:layout_height="150dp" android:layout_width="120dp" android:background="@drawable/t3" android:id="@+id/btn3" android:layout_alignLeft="@+id/btn1" android:layout_alignStart="@+id/btn1" android:layout_marginTop="37dp" android:layout_below="@+id/btn1"/>
+
+        <Button android:layout_height="150dp" android:layout_width="120dp" android:background="@drawable/t1" android:id="@+id/btn1" android:layout_marginTop="88dp"
+            android:layout_marginLeft="29dp" android:layout_marginStart="29dp"
+            android:layout_below="@+id/tvChoose"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="For Experienced"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvExperiencedText"
+            android:layout_below="@+id/tvChoose"
+            android:background="#FFFFFF"
+            android:textColor="#582804"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp" />
+
+        <Button android:layout_height="150dp" android:layout_width="120dp" android:background="@drawable/t1" android:id="@+id/btn7"
+            android:layout_marginTop="81dp"
+            android:layout_below="@+id/btn5"
+            android:layout_alignLeft="@+id/btn5"
+            android:layout_alignStart="@+id/btn5" />
+
+        <TextView
+            android:text="For Fresher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textColor="#582804"
+            android:id="@+id/tvFresherText"
+            android:layout_above="@+id/btn8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="26dp" />
+
+    </RelativeLayout>
+    >
+</ScrollView>

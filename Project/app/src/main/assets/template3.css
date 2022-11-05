@@ -1,0 +1,26 @@
+h4,h3
+{
+	color: Black;
+}
+#header
+{
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	height: 600px;
+	float: left;
+	width:400px;
+	margin-right: 200px;
+}
+#sideright
+{
+	background-color: Teal;
+	color: Black;
+	position: absolute;
+	top: 0px;
+	left:400px;
+	padding: 20px;
+	width: 300px;
+	height: 830px;
+
+ }

@@ -1,0 +1,30 @@
+ body
+	{
+		border: 1px solid Black;
+		border-width: 0.2em;
+		margin: 20px;
+		border-right: 20px;
+		border-left: 20px;
+		border-top: 20px;
+		border-bottom: 20px;
+		margin-right: 2px;
+		
+	}
+		h3 {
+			background-color: Black;
+			color:White;
+			padding-top: 3px;
+			height: 30px;
+		}
+		#navbar
+		{
+			background-color:Black;
+			height: 15px;
+		}
+		#header
+		{
+			background-color: Black;
+			height: 20px;
+		}
+	
+ 
